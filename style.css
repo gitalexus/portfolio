@@ -1,0 +1,134 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+*,
+*::after,
+*::before {
+  font-family: "Roboto";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.header-wrapper {
+  width: fit-content;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.profession {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin: 0;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px 10px;
+}
+
+.list-item-wrapper {
+  display: grid;
+  grid-template-columns: 60% 30% 10%;
+}
